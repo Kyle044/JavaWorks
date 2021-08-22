@@ -1,0 +1,29 @@
+
+public class Human {
+	//declaring an instance of GUIClass
+	GUIClass gui = new GUIClass();
+	String name;
+	int age;
+	double weight;
+	boolean isReady;
+	//Local variables are inside only the method and can only access by that method
+	Human(String _name,int _age,double _weight,boolean _isReady){
+	this.name=_name;
+	this.age=_age;
+	this.weight=_weight;
+	this.isReady=_isReady;
+	HumanSaysHello();
+	}
+	
+	
+	public void EatHuman() {
+		//using the display method of GUI Class
+		gui.Display(this.name+" is Eating Something");
+	}
+	
+	public void HumanSaysHello() {
+		//Human Saying Hello
+		gui.Display("My name is " + this.name +" And i have been Created Hello!");
+	}
+
+}

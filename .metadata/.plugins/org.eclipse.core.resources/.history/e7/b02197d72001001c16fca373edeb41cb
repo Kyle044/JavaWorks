@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		//declare an instance
+		//GUIClass gui = new GUIClass();
+		//call the function within the instance of a class
+		//gui.whatName();
+		
+		
+		//creating an instance of Human Class
+		
+		Human human = new Human("Toto",65,70);
+		human.EatHuman();
+				
+		
+		
+		
+	}
+
+}
+ 

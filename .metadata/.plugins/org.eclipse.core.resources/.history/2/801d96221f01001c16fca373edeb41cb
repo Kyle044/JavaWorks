@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public  class GUIClass {
+	
+	
+	public static void whatName() {
+		
+		//basic gui using swing
+		String name = JOptionPane.showInputDialog("Enter Your Name");
+		JOptionPane.showMessageDialog(null,"Your name is "+name);
+	}
+
+}

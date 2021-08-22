@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+public class Panel extends JFrame {
+
+	
+	
+	
+	Panel(){
+		
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(750,750);
+		this.setVisible(true);
+		this.setLayout(null);
+	}
+}

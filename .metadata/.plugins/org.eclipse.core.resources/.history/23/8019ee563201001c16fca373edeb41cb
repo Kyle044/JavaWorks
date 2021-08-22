@@ -1,0 +1,8 @@
+
+public class Dog {
+	String Type;
+Dog(String name,int age,String _type){
+	super(name,age);
+	
+}
+}

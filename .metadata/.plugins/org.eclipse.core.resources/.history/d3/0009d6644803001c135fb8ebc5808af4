@@ -1,0 +1,26 @@
+import java.awt.Color;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+public class Panel extends JFrame {
+
+	
+	JPanel redPanel = new JPanel();
+	JPanel bluePanel = new JPanel();
+
+	
+	Panel(){
+		
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setSize(750,750);
+		this.setVisible(true);
+		this.setLayout(null);
+		redPanel.setBackground(Color.red);
+		redPanel.setBounds(0,0,250,250);
+		this.add(redPanel);
+		bluePanel.setBackground(Color.red);
+		bluePanel.setBounds(250,250,250,250);
+		
+	}
+}
