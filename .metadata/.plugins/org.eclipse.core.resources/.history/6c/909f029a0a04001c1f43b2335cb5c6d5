@@ -8,9 +8,8 @@ public class Main {
 //Panel panel = new Panel();
 
 	//	Button button = new Button();
-//new Borderlayout();
+new Borderlayout();
 
-		new textField();
 	}
 
 }

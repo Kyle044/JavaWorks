@@ -7,10 +7,9 @@ public class Main {
 //Label frame = new Label();
 //Panel panel = new Panel();
 
-	//	Button button = new Button();
-//new Borderlayout();
+		Button button = new Button();
 
-		new textField();
+
 	}
 
 }
